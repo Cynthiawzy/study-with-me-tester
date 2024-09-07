@@ -3,4 +3,5 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),  # Root endpoint
+    path('root/', views.root, name='root'),
 ]
