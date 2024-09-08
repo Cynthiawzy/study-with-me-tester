@@ -28,6 +28,10 @@ SIMPLE_JWT = {
     'REFRESH_TOKEN_LIFETIME': timedelta(weeks=2),
 }
 
+CORS_ALLOWED_ORIGINS = [
+    "https://Cynthiawzy.github.io",
+]
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
