@@ -13,6 +13,7 @@ class VideoPreference(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     mood = models.CharField(max_length=50, choices=MOOD_CHOICES)
     video_url = models.URLField()
+    video_id = models.CharField(max_length=11, blank=True, null=True)
     title = models.CharField(max_length=255)
     thumbnail_url = models.URLField(blank=True, null=True)
 
