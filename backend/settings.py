@@ -30,7 +30,7 @@ SIMPLE_JWT = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "https://Cynthiawzy.github.io",
+    "https://cynthiawzy.github.io",
 ]
 
 INSTALLED_APPS = [
