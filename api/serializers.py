@@ -16,5 +16,5 @@ class UserSerializer(serializers.ModelSerializer):
 class VideoPreferenceSerializer(serializers.ModelSerializer):
     class Meta:
         model = VideoPreference
-        fields = ["id", "user", "mood", "video_url", "title", "thumbnail_url"]
+        fields = ["id", "user", "mood", "video_url", "video_id", "title", "thumbnail_url"]
         read_only_fields = ["user"]
